@@ -10,7 +10,6 @@ public class LCSubstring {
 
 		String line = scanner.nextLine();
 		String[] inputs = line.split(" ");
-		scanner.close();
 		if (inputs.length != 3) return;
 		//int l = Integer.parseInt(inputs[0]);
 		String s1 = inputs[1];
@@ -57,6 +56,7 @@ public class LCSubstring {
 		}
 		System.out.println(maxLen);
 		System.out.println(sub);
+	
 	}
 
 }
