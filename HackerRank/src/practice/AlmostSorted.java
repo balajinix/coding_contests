@@ -10,6 +10,7 @@ public class AlmostSorted {
 		int i=0, j=0, l=-1,r=n;
 		int[] a = new int[n];
 		for (i=0;i<n;i++) a[i] = scanner.nextInt();
+		scanner.close();
 		i=0;
 		j=n-1;
 		int swap_count = 0;

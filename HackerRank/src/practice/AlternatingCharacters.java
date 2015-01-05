@@ -19,6 +19,7 @@ public class AlternatingCharacters {
 			}
 			System.out.println(count);
 		}
+		scanner.close();
 	}
 
 }

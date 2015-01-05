@@ -10,6 +10,7 @@ public class AlmostSortedInterval {
 		for (int n=0;n<N;n++) {
 			a[n] = scanner.nextInt();			
 		}
+		scanner.close();
 		a[N] = 0;
 		int i=0; int count=1;
 		int sum=0;
