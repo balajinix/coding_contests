@@ -26,6 +26,7 @@ public class LCSubstring {
 					} else {
 						a[i][j] = a[i-1][j-1] + 1;
 					}
+					// this is just wrong
 					if (a[i][j] > maxLen) {
 						maxLen = a[i][j];
 						sub = s1.substring((i-maxLen+1)-1, i);
